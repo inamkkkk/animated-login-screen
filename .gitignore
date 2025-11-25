@@ -1,0 +1,45 @@
+### Flutter ###
+*.iml
+.idea/
+.dart_tool/
+.metadata
+
+# Avoid accidental commiting of user-specific IDE configuration.
+!.idea/modules.xml
+!.idea/workspace.xml
+!.idea/tasks.xml
+
+# Generated files
+/build/
+/ios/Flutter/App.framework
+/ios/Flutter/Flutter.framework
+/android/app/build/
+
+# Packages
+.packages
+**/pubspec.lock
+**/packages
+
+# Exclude generated files from coverage reports
+/coverage/
+
+# Crash reports from flutter drive.
+driver_temp.*
+
+# Flutter's temporary directory for the host platform binaries.
+/bin/cache/
+
+# Intellij project files
+*.iws
+
+# DS_Store files
+.DS_Store
+
+# Log files
+*.log
+
+# Environment variables
+.env
+
+# Dependencies directory
+/dependencies/
